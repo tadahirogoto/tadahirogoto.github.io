@@ -5,6 +5,7 @@ author_profile: false
 sidebar: 
   nav: "docs"
 ---      
+
 ***
 # 論文投稿までの流れ
 
@@ -13,6 +14,7 @@ sidebar:
 1. タイムマネジメントをどうするか
 1. 論文の投稿先を考える
 1. 論文の形式を決める
+
 ***
 
 ## 1. 論文投稿までのスケジュール
@@ -111,7 +113,7 @@ https://scholar.google.com/citations?view_op=top_venues&hl=ja&vq=med_emergencyme
 また雑誌にはopen journalと普通のjournalがあります。利点欠点はそれぞれ逆になりますが、最近はopen journalが隆盛を誇っています。普通のjournalとopen journalの大きな違いは論文の著者がお金を払うか払わないか、そして著作権が著者に帰属するかしないか、です。ちなみに勘違いされがちですがopen journalも普通のjournalも「査読の早さ」はあまり変わりません。ただし雑誌によっては方法と結果しか見ないので早い事もあります。またopen journalは誰でも読めるため、読んでもらいやすく引用されやすいという利点があります。
 
 #### 普通のjournalとopen journalの違い
-|---|普通のJournal|	Open Journal|
+|項目|普通のJournal|	Open Journal|
 |---|---|---|
 |メリット|	お金がかからない|誰でも論文が読める|
 |---|歴史ある雑誌が多い|	出版までが早い |
