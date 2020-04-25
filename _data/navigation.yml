@@ -13,46 +13,31 @@ main:
 
 # Side bar
 docs:
-  - title: Getting Started
+  - title: "JEMNet論文マニュアル"
     children:
-      - title: "スケジュールの決定"
+      - title: "1.論文投稿までの流れ"
         url: /1-schedule/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+      - title: "2.論文の構成を考える"
+        url: /2-structure/
+      - title: "3.どこから手をつけるか"
+        url: /3-startwriting/
+      - title: "4.Section別対応"
+        url: /4-section/
+      - title: "5.図表の書き方"
+        url: /5-figures/
+      - title: "6.脚注記号"
+        url: /6-footnote/
+      - title: "7.Title pageとCover letterの書き方"
+        url: /7-titlepages/
+      - title: "8.Authorship"
+        url: /8-authorship/
+      - title: "9.英語表現と校正"
+        url: /9-englishediting/
+      - title: "10.提出と雑誌選び"
+        url: /10-journals/
+      - title: "11.Reviewerへの対応"
+        url: /11-revise/
+      - title: "12.具体的な英語表現"
+        url: /12-english/
+      - title: "13.巻末と変更履歴"
+        url: /13-others/
