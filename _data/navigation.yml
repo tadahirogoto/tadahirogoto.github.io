@@ -23,6 +23,8 @@ docs:
         url: /3-startwriting/
       - title: "4.Section別対応"
         url: /4-section/
+            - title: "4-1 Methods"
+              url: /4-section-methods/
       - title: "5.図表の書き方"
         url: /5-figures/
       - title: "6.脚注記号"
