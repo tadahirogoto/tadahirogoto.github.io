@@ -1,13 +1,9 @@
 ---
 permalink: /1-schedule/
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      sidebar:
-        nav: "docs"        
+layout: home
+author_profile: false
+sidebar: 
+  nav: "docs"
 ---      
 
 
