@@ -6,8 +6,6 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: false
       sidebar:
         nav: "docs"        
 ---      
