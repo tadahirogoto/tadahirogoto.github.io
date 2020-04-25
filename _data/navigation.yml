@@ -15,8 +15,8 @@ main:
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+      - title: "スケジュールの決定"
+        url: /1-schedule/
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
