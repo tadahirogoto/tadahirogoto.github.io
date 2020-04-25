@@ -6,9 +6,9 @@ sidebar:
   nav: "docs"
 ---      
 
-1. 論文の構成要素
+***
 
-本文以外の構成要素を知る
+# 論文の構成要素
 
 実際に構成のイメージが完成し、日本語でおおよその書きたいことが決まったら、いつまでも英語から逃げずとにかく書き出してみましょう！まず、論文の全体の構成として、full length articleの場合、おおよそ以下のようになります。
 
@@ -17,7 +17,7 @@ sidebar:
 　　　Author information / Affiliation
 　　　Word count
 　　　Running head / Short title
-    Conflict of interest (COI)
+     Conflict of interest (COI)
 　　　Author contributions
 　　　Keyword
 3.　Abstract
@@ -32,24 +32,27 @@ sidebar:
 
 上記のように「introduction, methods, results, discussion」 以外にも論文は色々記載しなければならないところがあります。ただし形式（お作法）は決まっていますので、そのひな形を使えば大丈夫！
 
-Cover letter（添え状）
+**Cover letter（添え状）**
 Editorへの手紙です。失礼が無いように、かつ「こんな論文だから是非とも読んで欲しい！」ということを簡潔にアピールしましょう。Cover letterの内容だけでもrejectされてしまうぐらい大事なものなので確実に仕上げる必要があります。具体例は後述します。
 
-Title page
+**Title page**
 文字通りtitleと筆者の情報や論文のwords countなどを書きます。雑誌によって書く内容は異なるので、投稿先の雑誌のinstructions for authorsをよく読んでください。一般的にはrunning head (短い論文タイトル), conflict of interest (利益相反, COI)やグラントの有無、keywords、word countなどがここに含まれます。時に内容のsummaryを求められることもあります。
 
-Acknowledgement（謝辞）
+**Acknowledgement（謝辞）**
 これも雑誌によりますが、書くことは大きく分けて２つあります。
 1) Fundingなどに関しての報告：どこからお金をもらって研究をしているのかを記載します。
 2）筆者にはならないけれど色々手助けしてくれた人などへのお礼。JEANの場合は他施設のprincipal investigator (PI)がここに含まれます。具体的な書き方は後述します。
 
-Figure legend（図の説明文）
+**Figure legend（図の説明文）**
 詳細は後述しますが、論文の図表には文字通り図（figure）と表（table）があります。TableはWordで作成するのが通常です（Excelで作成してcopy & pasteします）。
 一方で図はJPEG・TIFF・PNGなどの画像ファイルである必要があります。そのため、図の説明は画像内に入れるのではなく、本文の最後にfigure legends として挿入する必要があります。 
-2. どこから書き出すか
 
-Abstractもしくはmethods / resultsから
-とにかく書き出してみる！
+***
+
+## どこから書き出すか
+
+1. Abstractもしくはmethods / resultsから
+1. とにかく書き出してみる！
 
 大きく分けて方法は二つあります。学会発表まで終わっているのであれば、既に論文の概略ができているはずだからabstractを先に書く、という方法と、abstractは最後にしてmethodsとresultsから書き上げるという方法です（日本語要約のあとに）。JEMNetでは後者をお勧めしています。
 
