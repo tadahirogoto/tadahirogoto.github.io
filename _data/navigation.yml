@@ -29,19 +29,21 @@ docs:
         url: /6-figures/
       - title: "7.脚注記号"
         url: /7-footnote/
-      - title: "8.Title pageとCover letter"
-        url: /8-titlepages/
-      - title: "9.Authorship"
-        url: /9-authorship/
-      - title: "10.英語表現と校正"
-        url: /10-englishediting/
-      - title: "11.提出と雑誌選び"
-        url: /11-journals/
-      - title: "12.Reviewerへの対応"
-        url: /12-revise/
-      - title: "13.具体的な英語表現"
-        url: /13-english/
-      - title: "14.巻末と変更履歴"
-        url: /14-others/
+      - title: "8.お作法チェック"
+        url: /8-manner/
+      - title: "9.Title pageとCover letter"
+        url: /9-titlepages/
+      - title: "10.Authorship"
+        url: /10-authorship/
+      - title: "11.英語表現と校正"
+        url: /11-englishediting/
+      - title: "12.提出と雑誌選び"
+        url: /12-journals/
+      - title: "13.Reviewerへの対応"
+        url: /13-revise/
+      - title: "14.具体的な英語表現"
+        url: /14-english/
+      - title: "15.巻末と変更履歴"
+        url: /15-others/
 
 
