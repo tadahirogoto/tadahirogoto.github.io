@@ -14,20 +14,20 @@ main:
 # Side bar
 docs:
   - title: "JEMNet論文マニュアル"
-  - title: "1.論文投稿までの流れ"
-    url: /1-schedule/
-  - title: "2.論文の構成を考える"
-    url: /2-structure/
-  - title: "3.どこから手をつけるか"
-    url: /3-startwriting/
-  - title: "4.Section別対応"
-    url: /4-section/
-    children:
-      - title: "4-1 Methods"
-        url: /4-section-methods/
-  
-  - title: "5.図表の書き方"
-    url: /5-figures/
+      children: 
+      - title: "1.論文投稿までの流れ"
+        url: /1-schedule/
+      - title: "2.論文の構成を考える"
+        url: /2-structure/
+      - title: "3.どこから手をつけるか"
+        url: /3-startwriting/
+      - title: "4.Section別対応"
+        url: /4-section/
+        children:
+          - title: "4-1 Methods"
+            url: /4-section-methods/
+      - title: "5.図表の書き方"
+        url: /5-figures/
       - title: "6.脚注記号"
         url: /6-footnote/
       - title: "7.Title pageとCover letter"
