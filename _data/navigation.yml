@@ -21,26 +21,25 @@ docs:
         url: /2-structure/
       - title: "3.どこから手をつけるか"
         url: /3-startwriting/
-      - title: "4.Section別対応"
+      - title: "4.Methods/Outcome"
         url: /4-section/
-        children:
-          - title: "4-1 Methods"
-            url: /4-section-methods/
-      - title: "5.図表の書き方"
-        url: /5-figures/
-      - title: "6.脚注記号"
-        url: /6-footnote/
-      - title: "7.Title pageとCover letter"
-        url: /7-titlepages/
-      - title: "8.Authorship"
-        url: /8-authorship/
-      - title: "9.英語表現と校正"
-        url: /9-englishediting/
-      - title: "10.提出と雑誌選び"
-        url: /10-journals/
-      - title: "11.Reviewerへの対応"
-        url: /11-revise/
-      - title: "12.具体的な英語表現"
-        url: /12-english/
-      - title: "13.巻末と変更履歴"
-        url: /13-others/
+      - title: "5.Intro/Discussion"
+        url: /5-section-2/
+      - title: "6.図表の書き方"
+        url: /6-figures/
+      - title: "7.脚注記号"
+        url: /7-footnote/
+      - title: "8.Title pageとCover letter"
+        url: /8-titlepages/
+      - title: "9.Authorship"
+        url: /9-authorship/
+      - title: "10.英語表現と校正"
+        url: /10-englishediting/
+      - title: "11.提出と雑誌選び"
+        url: /11-journals/
+      - title: "12.Reviewerへの対応"
+        url: /12-revise/
+      - title: "13.具体的な英語表現"
+        url: /13-english/
+      - title: "14.巻末と変更履歴"
+        url: /14-others/
