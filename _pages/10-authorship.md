@@ -1,5 +1,5 @@
 ---
-permalink: /10-authorship.md/
+permalink: /10-authorship/
 layout: home
 author_profile: false
 sidebar: 
