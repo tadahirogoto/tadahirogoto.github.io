@@ -1,241 +1,198 @@
-§4. Section別対応
-今村太一　渡瀬博子　後藤匡啓
-1. Methodsの書き方
+---
+permalink: /4-section/
+layout: home
+author_profile: false
+sidebar: 
+  nav: "docs"
+---      
 
-過去の研究を参考にして何を書くべきかを考える
-STROBE声明に従う
-5W1H、共通の書き方を知る
+# 論文投稿までの流れ
 
-<例文集はチャプター13を参照>
+## Methodsの書き方
+
+1. **過去の研究を参考にして何を書くべきかを考える**
+2. **STROBE声明に従う**
+3. **5W1H、共通の書き方を知る**
 
 同じレジストリを使った論文がすでに発表されていれば、冒頭の書き出しはほぼ同じで構いません。あくまでも目安ですが、2500-3000 wordsの論文に対し500-800 words程度でしょう。そしてこの部分は「再現性」が大事です。つまり他の研究者がこの方法を読んで研究を再現できるように記載する必要があります。全体の流れは5W1H (When, Where, Who, What, How)になります。
 
-研究のデザイン/セッティング（study design / settings） – How, when, and where?
+
+
+**RECORD声明に関して**
+
+観察研究の場合、RECORD声明（STROBE）という世界標準の規則に従う必要があります。雑誌によってはSTROBE/RECORD声明のチェックリストを埋める事を要求されます（ちなみにランダム化比較試験の場合はCONSORT声明が別にあります）。一度は目を通してどんな事を記載しないといけないかを確認しましょう。このチェックリストを埋めて提出することが要求された場合には、該当する内容が記載されているページ番号と行番号をそれぞれ記載していきます。
+
+
+
+***
+
+**研究のデザイン/セッティング（study design / setting）– How, when, and where?**
+
 ランダム化比較試験、観察研究、横断研究などの研究デザインを書いた後、そのセッティングについて述べます。JEANを使う場合は「前向きに集めたデータを評価した」あるいは「前向きに集めたデータを後ろ向きに解析した」事になるため「prospective observational study」もしくは「retrospective analysis of observational data」になります。基本的に最初の一行目は研究デザインを述べます。
 
 例) This is a retrospective analysis of multicenter registries of emergency airway management in Japan. 
 
-次にどのようなセッティングで行われたデータを用いたかを書きます。JEAN studyのように既にあるデータセットを用いた場合は、そのデータセットがどのようにデータが集められて作成されたかを簡潔に述べます。もし他の論文でも既に使われている場合は、「*** data were defined using *** described elsewhere (References)」のように書いてもOKです。セッティングでは単施設か多施設か、大学病院か市中病院か、救急外来か入院なのか、などを詳細に述べます。 JEAN研究シリーズの場合、セッティングは過去論文にあるように日本国内における多施設の救急外来になります。単施設研究ならば市中病院か大学病院か、どれくらいの規模の病院か、年間症例数はどれくらいかなどを述べると具体性が増します。
+
+
+次にどのようなセッティングで行われたデータを用いたかを書きます。JEAN studyのように既にあるデータセットを用いた場合は、そのデータセットがどのようにデータが集められて作成されたかを簡潔に述べます。もし他の論文でも既に使われている場合は、「data were defined using described elsewhere (References)」のように書いてもOKです。セッティングでは単施設か多施設か、大学病院か市中病院か、救急外来か入院なのか、などを詳細に述べます。 JEAN研究シリーズの場合、セッティングは過去論文にあるように日本国内における多施設の救急外来になります。単施設研究ならば市中病院か大学病院か、どれくらいの規模の病院か、年間症例数はどれくらいかなどを述べると具体性が増します。
 
 例）The participating institutions included 11 Critical Medical Care Centers and had an average ED census of 25,000 patient visits per year (range, 4200–67,000).
 
-対象患者 （selection of participants） – Who?
+***
+
+**対象患者（selection of participants) – Who?**
+
 どのような患者が対象になったのか、inclusion criteriaとその定義を明記します。独自にcriteriaを決めるのではなく、できるだけガイドラインや過去の文献を参考にして丁寧に決める必要があります。
 
 例）　We included patients aged ≥65 years who required intubation for acute respiratory failure.(References)
 
+
+
 次にexclusion criteria、つまり「なぜ除外したのか」の定義、およびその理由を書きましょう 。例えば「挿管に失敗した人」なら「失敗」とは何をもって失敗としたのか？などです。また、その定義が一般的に受け入れられているかどうかも大事です。理由もちゃんと正当化されないといけません（そうしないと都合のいい結果になるように患者を作為的に取捨選択した可能性が出てきますよね）。上記のようにこれらの定義も基本的に過去の論文を引用してそれに従うのが基本です。できるだけmajor journalもしくは投稿先の雑誌の論文から引っ張ってきましょう。
 
 例1） We excluded patients aged ≥85 years because ***. (References)
-例2） The exclusion criteria were intubations using video laryngoscope, ***, and ***.
 
-データ収集方法や測定する変数（data collection） – What and how?
+例2） The exclusion criteria were intubations using video laryngoscope,
+
+***
+
+**データ収集方法や測定する変数（data collection） – What and how?**
+
 どの期間に・どのように・誰が集めたかを明確にします。ここでデータの信頼性を強調することがとても大事です。「Garbage in, garbage out」というように質の悪いデータからは質の悪いデータしか生まれず、それは最終的に患者さんを不幸します。研究内容によりますが、誰がどのように、どんな項目を測定したか、を述べます。Main outcomeではなく、あくまで一般的な「変数」です。例えば、年齢、性別などの患者属性、挿管試行回数、合併症の有無、どのような薬剤を使用したか、などです。多すぎる場合は簡潔にし、必要に応じてsupplemental fileとして別ファイルを添付しましょう（JEANの場合は共通事項になります）。
 
-例）Based on the previous literature,(References) we defined “oral no medication” as oral intubation, in which no medications were used.
+例）Based on the previous literature, we defined “oral no medication” as oral intubation, in which no medications were used.
 
-欠損値の割合をここで述べることもあります。（JEAN研究シリーズの場合は過去の論文を引用して、簡潔に述べるだけで構いません）。挿管のたびに記述式で書いてもらったことや、欠損値にはどのように対処したかを記載します。
+ 
+
+欠損値の割合をここで述べることもあります。（JEAN研究シリーズの場合は過去の論文を引用して、簡潔に述べるだけで構いません）。挿管のたびに記述式で書いてもらったことや、欠損値にはどのように対処したかを記載します。 
 
 例）We excluded 15 patients with no information on age (2%).
 
-暴露因子 （primary exposure）
+***
+
+**暴露因子** （primary exposure）
+
 暴露因子とはすなわち、結果に寄与すると考えられる要因のことです。例えば男性患者より女性患者のほうが初回挿管成功率が高くなるという仮説に基づく研究の場合、「性別」がPrimary exposureとなります。ここでも暴露因子の定義が明確であること、かつ科学的に妥当であること、そしてその定義が広く受け入れられるものであることを意識する必要があります。前述の例のように性別などは定義が明確で、性差の影響は様々な臨床の場で報告がありますから、科学的な妥当性も担保できていると考えらます。しかし「肥満」を暴露因子とする場合、肥満の定義には様々な方法が考えられます。仮にBMIを用いると決めたら、それはBMI 25 kg/m2以上でしょうか？それとも30 kg/m2以上でしょうか？これらの定義も基本的に過去の論文を引用してそれに従うのが基本です。major journalで使われた定義を引用するなどして、自身の使用する暴露因子の科学的妥当性を強化しましょう。
 
 例） The primary exposure was obesity. Obesity was defined as BMI ≥30 kg/m2.(References)
 
+ 
 
-アウトカム （outcome measures）
-Primary outcome(s)と、必要に応じてsecondary outcome(s) を述べます。アウトカムは多すぎてはいけません。特にPrimary outcomeは1個、多くても2個までが理想です。JEANの場合は初回挿管成功率や合併症率が主なアウトカムになります。ただ、成功といっても何をもって成功とするのか？を書きましょう。Main outcomeや解析に関連する言葉で曖昧なものは全て明確に定義しなければなりません。
+***
+
+**アウトカム（outcome measures）**
+
+Primary outcome(s)と、必要に応じてsecondary outcome(s) を述べます。アウトカムは多すぎてはいけません。特にPrimary outcomeは1個、多くても2個までが理想です。JEANの場合は初回挿管成功率や合併症率が主なアウトカムになります。ただ、成功といっても何をもって成功とするのか？を書きましょう。Main outcomeや解析に関連する言葉で曖昧なものは全て明確に定義しなければなりません。 
 
 例）The primary outcome was success of the first intubation attempt. Intubation success was defined as ***.
+
+
 
 記述研究の場合はどんな項目を記述したのか、リストにしてここで述べます。Inclusion criteriaなどと同様に、アウトカムも過去の研究と同じ（または似ている）であることが必要です。そうでないと知見の比較ができませんよね。引用を入れてアウトカムの定義づけをサポートしましょう。
 
 例）We described the reasons for intubation in the emergency department.
 
-統計処理の方法 （statistical analysis）
+***
+
+**統計処理の方法 （statistical analysis）**
+
 解析は各研究で異なります。統計ありきではなく、研究仮説とデザインが決まることで用いる統計方法が決まります。JEANを用いた研究では必要に応じてrandom-effects modelなどの解析を用いる場合がありますが、この場合は難しいので解析者や指導者と相談しましょう。感度解析（sensitivity analysis） を行った場合もここに追記します。Analysisには大まかに下記のような項目を記載します。
 
-1.	どういう目的でどのような解析を行ったか？
+ 
+
+1. どういう目的でどのような解析を行ったか？
+
 例）To determine the association between X and Y, we constructed a multivariable logistic regression model, adjusting for ***. ***, and ***.
 
-2.	Summary statisticsはどのように表現したか。 Summary statisticsとはTable 1などで2群間を比較するときに用いるカイ二乗検定、t検定、Wilcoxon検定などを総括したものを指します。もちろん連続変数にはt検定を用い、カテゴリ変数にはカイ二乗検定を用いた…と書く方が丁寧ですが、字数制限などがある場合にはsummary statisticsでまとめてしまっても大丈夫です。
+ 
+
+2. Summary statisticsはどのように表現したか。 Summary statisticsとはTable 1などで2群間を比較するときに用いるカイ二乗検定、t検定、Wilcoxon検定などを総括したものを指します。もちろん連続変数にはt検定を用い、カテゴリ変数にはカイ二乗検定を用いた…と書く方が丁寧ですが、字数制限などがある場合にはsummary statisticsでまとめてしまっても大丈夫です。
+
 例）Summary statistics were used to compare the characteristics between X and Y
 
-3.	多変量解析をした場合、どのような変数を補正(adjust)したか。多変量解析で調整する変数は基本的に過去の知見に基づいて選択します。
-例）We adjusted for **, ***, and ***, based on clinical plausibility and a priori knowledge (References).
+ 
 
-4.	それらの変数をどのように選択したか。上記に述べた通り、重要と思われる変数に関してはなぜそれを選んだかを記載します。特に自分たちの研究でモデルに入れた変数に関しては説明する必要があります。
+3. 多変量解析をした場合、どのような変数を補正(adjust)したか。多変量解析で調整する変数は基本的に過去の知見に基づいて選択します。
 
-5.	感度解析に関する記述（およびその理由付け）を述べる（下記参照）。
+例）We adjusted for **, ***, and ***, based on clinical plausibility and *a priori* knowledge (References).
 
-6.	有意差をどのように定義したかを記載します。
+ 
+
+4. それらの変数をどのように選択したか。上記に述べた通り、重要と思われる変数に関してはなぜそれを選んだかを記載します。特に自分たちの研究でモデルに入れた変数に関しては説明する必要があります。
+
+ 
+
+5. 感度解析に関する記述（およびその理由付け）を述べる（下記参照）。
+
+ 
+
+6. 有意差をどのように定義したかを記載します。
+
 例）All P-values were two-tailed, with P<0.05 considered statistically significant.
 
-7.	解析に使ったソフトはなにか。
+ 
+
+7. 解析に使ったソフトはなにか。
+
 例）We used STATA 15.0 (StataCorp, College Station, TX) and R statistical software (version 3.4.0) for the analysis.
 
-※STROBE声明に関して
-観察研究の場合、STROBE声明という世界標準の規則に従う必要があります。BMJ openなどの雑誌ではSTROBE声明のチェックリストを埋める事を要求されます（ちなみにランダム化比較試験の場合はCONSORT声明が別にあります）。一度は目を通してどんな事を記載しないといけないかを確認しましょう。このチェックリストを埋めて提出することが要求された場合には、該当する内容が記載されているページ番号と行番号をそれぞれ記載していきます。
-http://www.strobe-statement.org
+***
 
-※感度解析(sensitivity analysis)に関して
+**感度解析(sensitivity analysis)に関して**
+
 感度解析とは解析に用いる前提をさまざまに変化させた場合にどのように推測（inferences）が変化するか（さまざまな前提でもinferencesが似た方向であれば、結果が頑健であると言えます）。例としてはinclusion/exclusion criteria、変数のカテゴリ分け、解析モデルを変化させることです。
-例えば「2回以上の同一挿管者による連続した挿管試行は成功率を下げる」という結果が出た場合、じゃあ3回目はどうなのか？回数を連続変数とした場合はどうなのか？などを改めて解析することです。とくにinclusion criteriaを厳しくする感度分析では、どうしても統計的パワーが減ります（nが減少するため）。その際には有意差（p値）にこだわる必要はそんなにありません。それよりもinferenceの方向（例：オッズ比が1以上であるとか）が大事です。 
-2. Resultsの書き方
 
-図表がメインであり、本文はあくまで補足
-項目の書き方、順番はtablesと揃える
-図表と本文の数字が異なるのは禁忌！
-
-Resultsの本文はあくまでもシンプルを目指します。基本的には図表に語らせるため、強調したい部分の結果だけ書き出し、サマリーとして文章にします。数字はあまり羅列すると印象が薄れます。メインの結果まではできるだけ数字を減らし、メインの結果をズバッと数字で出すとインパクトがあります。目安ですが、2500-3000 wordsの論文に対し300-600 words程度を目指します（A4 ダブルスペース[US style]で1.5枚程度）。
+例えば「2回以上の同一挿管者による連続した挿管試行は成功率を下げる」という結果が出た場合、じゃあ3回目はどうなのか？回数を連続変数とした場合はどうなのか？などを改めて解析することです。とくにinclusion criteriaを厳しくする感度分析では、どうしても統計的パワーが減ります（nが減少するため）。その際には有意差（p値）にこだわる必要はそんなにありません。それよりもinferenceの方向（例：オッズ比が1以上であるとか）が大事です。
 
 
-①　冒頭のパラグラフではpatient flowに関して書きます。
+
+## Resultsの書き方
+
+ 
+
+**1. 図表がメインであり、本文はあくまで補足**
+
+**1. 項目の書き方、順番はtablesと揃える**
+
+**1. 図表と本文の数字が異なるのは禁忌！**
+
+ 
+
+Resultsの本文はあくまでもシンプルを目指します。基本的には図表に語らせるため、強調したい部分の結果だけ書き出し、サマリーとして文章にします。数字はあまり羅列すると印象が薄れます。メインの結果まではできるだけ数字を減らし、メインの結果をズバッと数字で出すとインパクトがあります。目安ですが、2500-3000 wordsの論文に対し300-600 words程度を目指します（ダブルスペース[US style]で1.5枚程度）。
+
+ 
+
+**①**　**冒頭のパラグラフではpatient flowに関して書きます。**
+
 Patient flowとは「全体で○人の患者がいて、そのうち×人が＊＊の理由で除外され、△人が対象となった」のような”患者の流れ”です。レジストリを用いた研究の場合、「そのレジストリから、XXXのデータを含んでいるX patients (Y%) の患者を解析した」ということを含めましょう。 図でフローチャートを作り、supplemental figureとして加えるといいです。
+
+ 
 
 例）From 2008 to 2015, there were ** patients intubated in the emergency department. Of these, we excluded ** patients aged<18 years, ** patients with ***. 
 
-Figureの例）
  
 
-②　次に全体のpatient characteristicsを書きます。
-患者の平均年齢、男(女)性の割合などからはじまり、どのような疾患だったのか、どんな挿管方法を使ったのかを書きます。全体を細かく書く必要はありません。大体の分布や割合が分かればOKです。細かい数字は図表を見て貰えばいいわけで、文章はサマリーを示すことが目的です。1パラグラフで簡潔に述べましょう。
+**②**　**次に全体のpatient characteristicsを書きます。**
+
+患者の平均年齢、男(女)性の割合などからはじまり、どのような疾患だったのか、どんな挿管方法を使ったのかを書きます。全体を細かく書く必要はありません。大体の分布や割合が分かればOKです。細かい数字は図表を見て貰えばいいわけで、文章はサマリーを示すことが目的です。**1****パラグラフで簡潔に述べましょう。**
+
+ 
 
 例）Patients who underwent RSI were more likely to be older age, male, and ***, compared to those who did not.
 
-③　研究目的の結果を述べていきます。
-Tablesの順に沿ってパラグラフを分けて結果を述べて行くと、比較的書きやすいでしょう。まずは全体像を示し、次に個別の解析、そして感度解析の順番に書いていきます。オッズ比などには必ず95%信頼区間をつけます（P値だけ書いてはいけません）。項目の書き方（例：性別をsexもしくはgenderどちらで書くか）や順番は必ずtablesと揃えましょう。図表と本文の項目や数字が異なるのは禁忌です！
-また臨床研究の論文において結果というのはあくまでも客観的な部分です。結果についての主観的意見や解釈は書かないようにしましょう（これらはdiscussionで述べる）。
+ 
 
-特に大事な点として、ここでも「査読者／読者に余計な労力を使わせない」ことを意識する必要があります
+**③**　**研究目的の結果を述べていきます。**
+
+Tablesの順に沿ってパラグラフを分けて結果を述べて行くと、比較的書きやすいでしょう。まずは全体像を示し、次に個別の解析、そして感度解析の順番に書いていきます。オッズ比などには必ず95%信頼区間をつけます（P値だけ書いてはいけません）。項目の書き方（例：性別をsexもしくはgenderどちらで書くか）や順番は必ずtablesと揃えましょう。図表と本文の項目や数字が異なるのは禁忌です！
+
+また臨床研究の論文において結果というのはあくまでも客観的な部分です。結果についての主観的意見や解釈は書かないようにしましょう（これらはdiscussionで述べる）。特に大事な点として、ここでも「査読者／読者に余計な労力を使わせない」ことを意識する必要があります
+
+
 
 １）主語とリズムを揃える。例えば、男女比較の研究において、「男性は女性に比べて呼吸不全による挿管が多かった」という文章と「一方、女性では男性に比べて意識障害による挿管が少なかった」という文が混在すると、どっちが基準なのか分かりにくくなりますし、とても読みづらいです。
 
 ２）オッズ比などの解釈の方向を逆転させない。例えば、男性患者に比べて女性患者への挿管成功率がオッズ比2.31と高い場合に「女性患者と比べて男性患者の挿管成功率は低かった（オッズ比：2.31）」と書いてはいけません。「低い」＝「オッズ比＜1.0」ですから混乱の元になります。
 
-３）都合の悪い結果にもちゃんと触れる。これは見せ方の問題でもありますが、都合の悪い結果でも、結果は結果です。さらりとでいいので触れましょう。結局レビュワーが気付いて指摘されるよりはいいです。 
-3. Introductionの書き方
-
-3段構成を意識する
-分かっている事と分かっていない事を明確に！
-短く、そして簡潔に（ダブルスペース[US style]でA4 1枚[250-300 words]）
-
-Introductionはdiscussionと並んで難敵です。短くシンプルに魅力的なストーリーを作り上げなければいけません。読者が「この論文は良さそうだ」「これは大事な問題だ」と思ってくれるようなintroductionを目指します。
-
-１段落目
-この段落の目的は、読者をひきつける事です。そのために話は大きく始めて、それから狭めていきます。例えば「救急外来では、***が世界的な問題である。それにより***な状況になっている。」など大きな視野にたって大きく始める。有病率、救急外来受診数、死亡率、 コスト、ER滞在時間など、疫学的な研究から具体的な数字を引用すると、読者の関心を引きつけられます。１段目を読み終わった時点で、「ああ、この問題は重要だね」と思わせるような文章にしましょう。ただし、本筋とあまり関係のないことを強調しすぎないように（例えば入院リスクの話をしているのに、直接関連のない死亡率の話を強調しない）。
-
-２段落目
-この段落の目的は、「what’s known」および「what’s unknown (=knowledge gap)」を明確にすることです。そして後者のgapを埋めることが研究の目的（＝3段落目）」になります。過去の研究から分かっていることと (what’s known)、分かっていない事 (what’s unknown)を明確にし、自分の研究が埋めるknowledge gapを明確にします。また過去の研究が多い場合にはその研究限界などを説明したうえで、gapが存在することを明確にします。まったく過去に研究がない場合でも類似している研究を引用し、不十分であることを説明しましょう。ただし、過去の研究を引用しすぎてレビューのようにならないよう注意してください。あくまでサマリーです。この段落の後半が最も難しくかつ重要な点となります。
-
-具体的にはまず一行目で前の段落を受けて「exposure Xとoutcome Yの間に関してはこういう研究がある」として、具体的な数字を述べていきます。また同時に過去の研究のlimitationsに関しても触れられると効果的です（もちろん自分の研究にはそれらのlimitationsがないことが前提です）。そして「However」 などの反語で強調しつつknowledge gapを明記します。There is a dearth of research on/Little is known aboutが決まり文句です。
-
-例）Despite its clinical and public health importance, there is a dearth of research to investigate the relationship between X and Y.
-
-
-３段落目
-２段落目で明確にしたknowledge gapを埋める＝研究の目的となります。そのために、「To address the knowledge gap in the literature, we aimed to investigate ***」, と書けばいいのです。そして
-　「自分の研究の目的はズバリこれだ」
-目的は明確に書きます。さらに研究デザインも簡単に述べましょう。記述研究なのか、それとも仮説研究なのかを明確にし、仮説研究ならば、何と何を比べるのかを述べます。３段落目は2-3文にしましょう。
-
-例1）To describe（記述する）the changes in the reasons for intubation over years.
-例2）To determine/investigate the association between X and Y.
-
-特に大事な点として、
-１）先にも述べましたが背景となる論文にはしっかりと目を通しておきましょう。その論文のアブストラクトだけを読んで引用してきてはいけません。
-
-2）前の研究のことを詳しく書きすぎて「What’s new」が弱くならないようにしましょう。
- 
-4. Discussionの書き方
-
-ストーリーラインを日本語で十分に練る
-論理を飛躍させない
-自分の論文の長所・弱点を補うための論文を十分に検索しておく
-一つの段落にメッセージは一つ
-
-確実に皆さんが一番苦労するところで、論理構成と英語の表現で頭を抱えることになると思います。IntroductionやResultsで書いた内容とできるだけ重複しないように気をつけましょう。
-
-4A. 結果のまとめ
-まず「この研究の結果は○○でした。みなさんに伝えたいメッセージは〇〇です！」のように３−４文で結果をまとめます。Large databaseを用いた研究などデータセットやセッティングに強みがある場合は文頭で「10,000例もの挿管データを用いて、我々は***であることを発見した」というように書き始めるとimpressiveです。また、この段落の最後に核となるメッセージをさらりと入れられると効率的です。
-
-例）In this prospective multicenter study of 10,104 ED intubations, we found the association of X with Y. Our observations suggest that（自分の研究から言える核となる内容を書く）。
-
-例） Our data demonstrate that, over the 6-year period, emergency physicians in Japan have gained competence in the most advanced airway management techniques – a defining intervention in the state-of-art practice of emergency medicine. Our observations would help to cement the role of emergency medicine as a distinct discipline.
-
-4B. 過去の研究との比較
-この段落の目的は、過去の研究のなかで自分の研究結果の位置付け(Results in the context)を行うことです。
-そのために過去の研究との比較が必要になりますよね。書き方としては、似ていない研究から紹介して、次に似た研究を紹介して自分の知見をサポートします（ケースバイケースですが）。そして過去の研究と比べた場合に、過去の研究にはどのような欠点があるかを軽く述べられると効果的です（ただし、その研究の筆者にreviewが回ることがあるので、強調しすぎずにあくまで客観的に述べる）。
-
-例）過去の研究が記述研究で、自分たちの研究が仮説検定研究である時には “While the prior descriptive study reported the ***”のようにさらりと記述研究であることを強調することで自分達の研究の良い点を強調させます。
-
-この段落は”Consistent with our findings, a prior study reported that ***”のようにconsistentという単語をうまく使うと書きやすくなります。同様に締めの文章として「自分たちの研究が前の研究の上に成り立っており、今回の研究はそのエビデンスをさらにextendする」という決まり文句を使うことで段落が引き締まります。
-
-例）Our study corroborate these prior studies, and extends them by demonstrating **THE MAIN FINDINGS**.
-
-
-4C. 研究結果の考えうるメカニズム
-まずは自分の研究結果から論ずることが理想です。それが不可能ならば過去の研究結果からバランスよく引用します。過去には膨大な研究があるので、自分の結果をサポートするような研究が必ずあります。最後にそこから自分の研究は何を訴えることができるのかを明確にしましょう。結構やりがちなのが、ただただ過去の研究を羅列してしまうことや、自分の研究結果から飛躍した論理展開をしてしまうことです。ちゃんと事実と推測は分けましょう。違いを説明する際にも具体的な数字を出したりするなど、「ぼやっ」としないように気をつける必要があります。また、過去の結果で都合の悪い研究があったとしても、それがmajor journalなどから出ている場合は触れないわけにはいかないので、理由付けを頑張って行い、自分の研究の長所を強調しましょう。
-
-4D. 研究の意義 = Implications
-自分の研究が誰にどのように影響を与えるかを述べます。つまり 臨床医、研究者、医療政策策定者のうち最低２者それぞれにどのような意義があるのかを具体的に書いてください。気道管理の研究をして、「自分の研究は気道管理にimplicationを与える」とするのはダメ！自分の研究により、臨床医、研究者、医療政策策定者が具体的にどのように行動を変える必要があるのかを説く必要があります。特にここは「一見良さそうなことを言っているけど具体性に乏しい」美辞麗句のオンパレードになりやすいので、具体的に書いて説得力を持たせる必要があります。賛否両論ありますが、ImplicationsはConclusionsに含めることを進めています（下記） --論文を強く終えることができるため。
-
-4E. 研究の限界 = Potential limitations
-疫学研究においては内的妥当性（選択バイアス、情報バイアス、交絡因子など）や外的妥当性（システム・環境の違い）を述べます。過去の類似した研究のlimitationsを参考にするのもひとつの方法です。Limitationsのない研究はありません。 ポイントは、査読者が気づくであろうlimitationsは隠さずに書いておくことです。しかしながら、それに対する反論も付け加えておくことも大事です。ここは幾つかのスタイルがありますが、JEMNetではlimitationを述べた後に「しかし、我々はこのlimitationをaddressするため**を行った」というようにlimitationsの影響を最低限にする努力（例えば感度分析）をしたことを明記するのをお勧めしています。 
-
-例1） 相関関係を示したが、因果関係を証明するものではない➡しかし超緊急の状況でランダム化比較試験をするのは現実的ではない。
-例2） 〜〜といった限界がある➡しかし、〇〇のようにしてその限界を最小にするよう努力した。
-例３）＊＊のlimitationに関しては＊＊な感度分析をして、結果が同じであることを確認している。
-
-4F. Conclusions
-これはdiscussionの一部として書く場合と、別に分ける場合があります。シンプルがゆえに結構難しいですが、メインメッセージを数行で書きましょう。論文によってはimplicationをここにくっつけてしまう事もあります。
-JEMNetではここにdiscussionを踏まえた過去の論文からの位置付けおよびimplicationsを加えて強く終えることを推奨しています（ここにimplicationsを書く場合は上記のDiscussionで述べすぎないようにしましょう）。 
-5. Referencesの書き方
-
-必ず文献管理ソフトを用いる！
-雑誌毎にstyleが違うので確認する
-最後は自分で確認する
-
-論文の指導を受けたことのない研究者に見られる特徴のひとつとして、referencesがいい加減である、というのがあります。先に述べたように「過去の知見の上に自分の研究が成り立っている」わけですから、ここが適当＝自分の研究の土台が適当、ということです。Referencesが適当な論文がいい内容なはずがありません。質の良い査読者はここを見逃しません。
-
-Endnoteを買う
-まずは文献管理ソフトのEndnoteを買いましょう。他のZoteroなどのフリーウェアでもいいですが、使いこなすまでに時間がかかると思います。最初はみんなと同じものを使う方が相談もしやすいですし、インターネットや本でも調べることが可能です。Endnoteを安く手に入れる方法はネットで検索してみて下さい。2万円かからない方法もあります。
-
-字体に注意する
-Endnoteなどの文献管理ソフトの最初の字体はTimes New Roman以外のことが多いので訂正する必要があります。
-
-スタイル（フォーマット）
-Endnoteには様々な雑誌に対応したスタイルが保存されています。これらから投稿先のjournalを選びましょう。Referenceも論文の一部なので絶対に指示に従ったスタイルで記載して下さい！Endnoteであれば各雑誌用のスタイルが登録されているのでそれを選べばOKです。もし無い場合も追加でインストール可能です（詳細はインターネットで検索してください）。
-
-1）筆者名：多くのジャーナルでは6名以内は全員記載、それ以上なら最初3名を書いてあとはet al.とまとめるパターンが多いです。Authorがグループ名になっている場合は表記がおかしなことになりやすいので確認が必要です。
-
-2）雑誌名は基本的にabbreviationを用います。Abbreviationの方法は決まっていて、PubMed内の「Journals in NCBI Databases」で検索ができます。勝手にabbreviationを作らないようにしましょう。Endnoteの初期設定だとabbreviationになっていないこともあるので、その場合は少し設定変更が必要になります。
-例） Annals of Emergency Medicine　➡　Ann Emerg Med
-
-3）引用の仕方を間違えない
-これも論文を初めて書く人に間違いが多く見られます。引用のしかたも雑誌によって異なります。〜〜 [16].のように角括弧を使う場合は句読点の直前に、〜〜.16のように上付きであれば句読点の直後にreferenceが付きます。ただしBMC系列だと、 〜〜.[16]のように句読点の直後に来ることもあるので、必ずinstruction for authorsをチェックして下さい。
-
-Endnoteは絶対でない
-Endnoteに任せても書き方が微妙に違う場合が多々あります。これは仕方が無いのでいちいち手作業で直さないといけません。投稿前に必ずチェックしましょう。
-
-論文をまた引きしない
-論文の本文が見られなかったり、あちこちで引用されている論文を見たりするとつい、「abstractだけ読んだけど、これでいいだろう」とか「適当にこの有名な論文を引っ張ればいいか」と思ってしまうかもしれませんが、絶対にいけません（恥ずかしいことです）。Reviewerによっては丁寧にreferencesまでチェックします。 
-6. Abstractの書き方
-
-字数と書き方を確認する
-Abstractを読んだだけで内容が分かるようにする
-多くの読者はabstractしか読んでくれないので気合を入れて
-
-Abstractは本文が書けてしまえばそこまで難しいものではありません。ただし、要約力が試されます。必ず字数制限は守り、できる限り字数上限いっぱいまで書くことが大事です（できるだけ情報を入れる）。250字ならばheading込みで245字は書くように頑張りましょう。
-
-Abstractはbackground, methods, results, conclusion のような形式から、importance, objective, design, participants, main outcome, results, conclusions and relevance のように詳細に記述しないといけない形式まで、雑誌によって異なります。後者の場合は箇条書きでかまいません。Abstractの書き方も雑誌に指定があるので確認しましょう。書き方の参考になるのは同じ雑誌の他の論文なので、テーマが近いものを探して書き方を学びましょう。
-
-多くの読者はAbstractしか読んでくれません。従って、Abstractを読んだだけでも内容が明確に伝わらないといけません。
-
-書き方の例）
-Background: X is common among individuals with disease Y. However, little is known about the association of X with severity of disease Y.
-Objectives: To examine the association of X with severity of disease Y and in-hospital mortality.
-Methods: This is a retrospective cohort study using ** data from 20** through 20**. We included patients (aged ≥40 years) hospitalized for Y. The outcome measures were **. To examine the association between X and each outcome, we fit unadjusted and adjusted logistic regression models. In the adjusted models, we adjusted for **, **, and **.
-Results: Of *** patients hospitalized for Y, **% had condition X. X was significantly associated with a higher severity marker (adjusted OR ** [95%CI **-**] P=****) compared to non-X patients. Similarly(By contrast), ***. In the sensitivity analysis using ***, these results were consistent.
-Conclusions: In this *** study of patients hospitalized with Y, X was associated with high acute severity. These findings suggest that ***.
+３）都合の悪い結果にもちゃんと触れる。これは見せ方の問題でもありますが、都合の悪い結果でも、結果は結果です。さらりとでいいので触れましょう。結局レビュワーが気付いて指摘されるよりはいいです。
 
