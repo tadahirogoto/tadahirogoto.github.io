@@ -6,6 +6,8 @@ sidebar:
   nav: "docs"
 ---      
 
+***
+
 # 論文投稿までの流れ
 
 ## Methodsの書き方
