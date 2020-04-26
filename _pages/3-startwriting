@@ -1,12 +1,10 @@
 ---
-permalink: /1-schedule/
+permalink: /3-startwriting/
 layout: home
 author_profile: false
 sidebar: 
   nav: "docs"
 ---      
-
-***
 
 # 論文の構成要素
 
@@ -14,21 +12,21 @@ sidebar:
 
 1.　Cover letter
 2.　Title page
-　　　Author information / Affiliation
-　　　Word count
-　　　Running head / Short title
-     Conflict of interest (COI)
-　　　Author contributions
-　　　Keyword
+   Author information / Affiliation
+   　　　Word count
+   　　　Running head / Short title
+   Conflict of interest (COI)
+   　　　Author contributions
+   　　　Keyword
 3.　Abstract
 4.　Background / Introduction　
 5.　Methods
 6.　Results
 7.　Discussion / Limitations
-8.	Conclusions
-9.	Acknowledgement
-10.	References
-11.	Figure legends
+8.　Conclusions
+9.　Acknowledgement
+10.　References
+11.　Figure legends
 
 上記のように「introduction, methods, results, discussion」 以外にも論文は色々記載しなければならないところがあります。ただし形式（お作法）は決まっていますので、そのひな形を使えば大丈夫！
 
@@ -51,11 +49,12 @@ Editorへの手紙です。失礼が無いように、かつ「こんな論文�
 
 ## どこから書き出すか
 
-1. Abstractもしくはmethods / resultsから
-1. とにかく書き出してみる！
+1. **Abstractもしくはmethods / resultsから**
+2. **ストーリーが完全に出来上がっているならintroductionから**
+3. **とにかく書き出してみる！**
 
-大きく分けて方法は二つあります。学会発表まで終わっているのであれば、既に論文の概略ができているはずだからabstractを先に書く、という方法と、abstractは最後にしてmethodsとresultsから書き上げるという方法です（日本語要約のあとに）。JEMNetでは後者をお勧めしています。
+大きく分けて方法は二つあります。学会発表まで終わっているのであれば、既に論文の概略ができているはずだからabstractやintroから書く、という方法と、abstractは最後にしてmethodsとresultsから書き上げるという方法です（日本語要約のあとに）。JEMNetでは後者をお勧めしています。
 
 Methodsとresultsは客観的な部分であり、introductionやdiscussionのような論理構成がそこまで必要ないため比較的手がつけやすい部分です。しかも、JEANのようなレジストリを用いた研究ではmethodsの部分はほとんど同じになります（だからと言って他の論文の丸々コピーはダメですよ！）。先行研究はintroductionやdiscussionだけでなく、methodsの部分でも非常に参考になります。しかし、これらはあくまでも一般的にとりかかりやすい方法であり、もし他に書き始めやすい部分があれば、そこからまずは書いてみるという方法でも、もちろんいいと思います。
 
-とにかく、英語を怖がらず書き出してみる事が一番大事です！！
+英語が苦手であればDeepLを使って「主語述語を明確にした日本語」を翻訳することでかなり「いい感じ」の文章が出来上がります。細部に拘らずに、とにかく英語を怖がらず書き出してみる事が一番大事です！！
