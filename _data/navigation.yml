@@ -10,11 +10,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
+  
 # Side bar
 docs:
   - title: "JEMNet論文マニュアル"
-      children: 
+    children:
       - title: "1.論文投稿までの流れ"
         url: /1-schedule/
       - title: "2.論文の構成を考える"
