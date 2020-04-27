@@ -18,23 +18,17 @@ sidebar:
 
 実際に構成のイメージが完成し、日本語でおおよその書きたいことが決まったら、いつまでも英語から逃げずとにかく書き出してみましょう！まず、論文の全体の構成として、full length articleの場合、おおよそ以下のようになります。
 
-1.　Cover letter
-2.　Title page
-   Author information / Affiliation
-   　　　Word count
-   　　　Running head / Short title
-   Conflict of interest (COI)
-   　　　Author contributions
-   　　　Keyword
-3.　Abstract
-4.　Background / Introduction　
-5.　Methods
-6.　Results
-7.　Discussion / Limitations
-8.　Conclusions
-9.　Acknowledgement
-10.　References
-11.　Figure legends
+1. Cover letter
+1. Title page
+1. Abstract
+1. Background / Introduction　
+1. Methods
+1. Results
+1. Discussion / Limitations
+1. Conclusions
+1. Acknowledgement
+1. References
+1. Figure legends
 
 上記のように「introduction, methods, results, discussion」 以外にも論文は色々記載しなければならないところがあります。ただし形式（お作法）は決まっていますので、そのひな形を使えば大丈夫！
 
